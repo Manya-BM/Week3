@@ -1,2 +1,26 @@
-# Week3
-🚗🔋 EV Range Prediction Chatbot — Week 3 Project  A simple conversational chatbot that predicts the real-world driving range of an Electric Vehicle using ML. Built using Streamlit, Python, scikit-learn, and a custom EV specifications dataset, this project demonstrates a clean workflow from data → model → chatbot UI.
+# EV Range Chatbot (Streamlit demo)
+
+Simple single-machine demo of an EV prediction chatbot using Streamlit and scikit-learn.
+
+## What it is
+- A chat-style UI that predicts real-world EV range from 4 inputs:
+  - battery_kwh (kWh)
+  - curb_weight (kg)
+  - avg_speed (km/h)
+  - drag_coefficient (Cd)
+- If you don't have a dataset, the app trains on a synthetic dataset so it works immediately.
+
+## Setup (VS Code)
+1. Open folder in VS Code.
+2. Create and activate a virtual environment:
+   - Windows:
+     ```
+     python -m venv .venv
+     .venv\Scripts\activate
+     ```
+   - macOS / Linux:
+     ```
+     python3 -m venv .venv
+     source .venv/bin/activate
+     ```
+3. Install dependencies:
